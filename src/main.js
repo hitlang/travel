@@ -6,6 +6,7 @@ import App from './App'
 import router from './router'
 import "./assets/styles/reset.css"
 import "./assets/styles/border.css" // 1像素边框解决
+import "./assets/styles/iconfont.css"
 import fastClick from 'fastclick' // 解决移动端，300ms点击延时
 
 Vue.config.productionTip = false
