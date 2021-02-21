@@ -8,10 +8,11 @@ import "./assets/styles/reset.css"
 import "./assets/styles/border.css" // 1像素边框解决
 import "./assets/styles/iconfont.css"
 import fastClick from 'fastclick' // 解决移动端，300ms点击延时
-
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
 Vue.config.productionTip = false
 fastClick.attach(document.body)
-
+Vue.use(VueAwesomeSwiper)
 /* eslint-disable no-new */
 new Vue({
   el: '#app', // index.html的挂载点
